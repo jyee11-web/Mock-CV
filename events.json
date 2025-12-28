@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Discovery",
+      "date": "9th Century",
+      "description": "Coffee beans are discovered by Kaldi, an Ethiopian goat herder.",
+      "image": "https://dreambeanscoffee.ie/wp-content/uploads/2021/12/Kaldi-Goatherd-Coffee.jpg",
+      "link": "https://dreambeanscoffee.ie/wp-content/uploads/2021/12/Kaldi-Goatherd-Coffee.jpg"
+    },
+    {
+      "title": "Coffee In Arabia",
+      "date": "15th Century",
+      "description": "Coffee begins to cultivate in the Arabian Pennisula, and coffee houses emerge as social hubs.",
+      "image": "https://edobarista.com/core/vendor/timthumb.php?src=https://edobarista.com/media/news/Coffee_Traders_yemen_arabs.jpg&w=1000&h=0&zc=1&q=70",
+      "link": "https://edobarista.com/core/vendor/timthumb.php?src=https://edobarista.com/media/news/Coffee_Traders_yemen_arabs.jpg&w=1000&h=0&zc=1&q=70"
+    },
+    {
+      "title": "Coffee in Europe",
+      "date": "17th Century",
+      "description": "Coffee spreads to Europe and coffeehouses begin appearing. They're used for intellectual exchange and socialization.",
+      "image": "https://www.sonofabarista.com/wp-content/uploads/2022/03/Coffee-Was-the-_Devils-Drink_-Until-One-Pope-Tried-it-and-Changed-History.jpeg",
+      "link": "https://www.sonofabarista.com/wp-content/uploads/2022/03/Coffee-Was-the-_Devils-Drink_-Until-One-Pope-Tried-it-and-Changed-History.jpeg"
+    },
+    {
+      "title": "Global Takeover",
+      "date": "18th Century",
+      "description": "European coffee plantations are established in America. Coffee is now seen as a globally prized possession.",
+      "image": "https://www.aboutcoffee.org/wp-content/uploads/2024/10/Gabriel-De-Clieu-takes-coffee-to-the-americas-1024x576.jpg",
+    "link": "https://www.aboutcoffee.org/wp-content/uploads/2024/10/Gabriel-De-Clieu-takes-coffee-to-the-americas-1024x576.jpg"
+    },
+    {
+      "title": "Specialty Coffee",
+      "date": "20th Century",
+      "description": "Popularity of coffee rose quickly, and quality, sustainability, and ethnic sourcing bettered. It became a household staple.",
+      "image": "https://perfectdailygrind.com/wp-content/uploads/2021/01/Coffee-Marketing-History-5.jpg",
+      "link": "https://perfectdailygrind.com/wp-content/uploads/2021/01/Coffee-Marketing-History-5.jpg"
+    }
+  ]

@@ -1,0 +1,6 @@
+/* textillate-anime.css */
+.tlt-unit, .tlt-word, .tlt-line {
+  display: inline-block;
+  white-space: pre; /* preserve spaces/newlines as typed */
+  will-change: transform, opacity;
+}

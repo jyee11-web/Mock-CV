@@ -1,0 +1,634 @@
+/* {
+    border: 1px solid red;
+}*/
+
+#page {
+    background-color: #b4988a !important;
+}
+
+html, body {
+    background-image: url("./img/coffee2.jpg");
+    background-size: 20vw;
+}
+.btn-primary {
+    color:white;
+    background-color: transparent;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #845238;
+    border-color: white;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: white;
+    border-color: white;
+    outline: none;
+    box-shadow: none!important;
+}
+
+/* html, body, #container {
+    /* remove all margins from side of page */
+   /* width: 100%;
+    margin: 0;
+    padding:0; 
+} */
+
+.section {
+    /* make sections be big */
+    width:100%;
+    height: 100vh;
+}
+
+
+
+#two {
+    background-color: #9a8078;
+}
+
+#four {
+    background-color: #9a8078;
+}
+
+#six {
+    background-color: #9a8078;
+    padding-top: 0%;
+}
+
+#eight {
+    background-color: #9a8078;
+}
+
+
+html {
+    background-color: #aeb9c5;
+}
+
+h1 { 
+  padding-top: 90px;
+} 
+
+h3 {
+  margin-top: 50 px;
+}
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("./img/brown-wooden-floor.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* animation */
+.cup {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 160px;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cup:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    border-radius: 50%;
+    background: #c16d31;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, .5);
+}
+
+.cup:after {
+    content: '';
+    position: absolute;
+    top: 48%;
+    right: -50px;
+    height: 90px;
+    width: 80px;
+    border-radius: 50%;
+    background: transparent;
+    border: 12px solid #fff;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+}
+
+.plate {
+    width: 250px;
+    height: 30px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background: #fff;
+    position: absolute;
+    top: 161px;
+    transform: translateX(-50px);
+}
+
+.cup ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -50px;
+    transform: translateX(10%);
+    width: 100%;
+}
+
+.cup ul li {
+    list-style: none;
+    width: 2px;
+    height: 40px;
+    background: #fff;
+    float: left;
+    margin: 10px;
+    animation: animate 2s infinite linear;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+        filter: blur(3px);
+    }
+
+    100% {
+        transform: translateY(-80px);
+        opacity: 0;
+        filter: blur(5px);
+    }
+}
+
+.cup ul li:nth-child(1) {
+    animation-delay: .2s;
+}
+
+.cup ul li:nth-child(2) {
+    animation-delay: .6s;
+}
+
+.cup ul li:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.cup ul li:nth-child(4) {
+    animation-delay: .6s;
+}
+
+.cup ul li:nth-child(5) {
+    animation-delay: .2s;
+}
+
+#Overview-title {
+    font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ #Overview-words {
+font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#Overview-words {
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+#Overview {
+    text-align: center;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 90px;
+    align-items: center;
+}
+
+.overview-coffee {
+    width: 400px;;
+    height: 400px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.accordion-body {
+    background-color: #ceb69e;
+}
+
+.accordion-button{
+    --bs-accordion-active-bg: #ead5c1;
+}
+
+/* .accordion-button {
+    background-color: #c2a596;
+} */
+
+
+#Health-title {
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.hb-text {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.health-beans {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.beans {
+    height: 100px;
+    width: 900px;
+}
+
+.demo-words {
+    text-align: center;
+}
+
+#Stats-title {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#DEM {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#graph1 {
+    width: 100%;
+    max-width: 400px;
+    height:auto;
+    margin: 0 auto;  
+    display: block;
+}
+
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  height:auto;
+  display: flex;
+  justify-content: center
+}
+
+.demo-words {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+
+#Stardunk {
+    display: block;
+    text-align: center;
+}
+
+#Stardunk-title {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+.map {
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;  
+  margin-top: 60px; 
+  display: block; 
+}
+
+#Stardunk-words{
+    text-align: left;
+    margin: 0 auto;
+}
+
+#MTT-title {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.pie-card {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+}
+
+#Brew-title {
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#Flavors-title {
+    position: relative;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+#Flavors-words {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.flavor-cards {
+  justify-content: center;
+  align-items: center; 
+  height: auto;
+  text-align: center;
+}
+
+.card {
+  width:  300px;
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding-bottom: 8px;
+}
+
+.bar-container {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height: 400px;
+  display: flex;
+  justify-content: center
+}
+
+#bar1 {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+
+.carousel-caption {
+    background-color: rgba(0,0,0,.5);
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img {
+    height: 600px;
+    width: 923px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+#carouselExampleCaptions {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+#video-words {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.made-to-taste video{
+ width: 100%;
+ height:auto;
+ display: block;
+ margin: 0 auto;
+ padding: 0;
+ max-width: 800px;
+
+}
+
+.made-to-taste {
+ padding-bottom: 100px;
+ margin: 0;
+}
+
+/* timeline css */
+
+/* .title-card {
+  color: white;
+  font-size: 30pt;
+  text-shadow: 0px 0px 10px #000000;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/H4Cf4WhkLg5moYmHw7wZ4K-1200-80.jpg.webp");
+  background-size:cover;
+} */
+
+
+#history-title {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Strait", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* original .content class (not used much here) */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    line-height: 1.8;
+    /*max-width: 800px;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* NEW: wrapper that defines the vertical scroll space for the horizontal timeline */
+.timeline-scroll-section {
+    position: relative;
+    width: 100vw;
+}
+
+/* Sticky container that stays pinned in viewport while we scroll through wrapper */
+.timeline-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("./img/timeline\ background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+    margin-right: 0;
+}
+
+/* Horizontal row of events */
+.timeline {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    padding-left: 50vw;  /* Empty space on the left */
+    padding-right: 50vw; /* Empty space on the right */
+    gap: 100px;
+}
+
+/* Line across middle */
+.timeline-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #9a8078;
+    z-index: -1;
+}
+
+/* Event cards */
+
+.event {
+    position: relative;
+    width: 300px;
+    background-color: #9a8078;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.event img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-content {
+    padding: 15px;
+}
+
+.event-title {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.event-date {
+    font-size: 0.9rem;
+    color: #875238;
+    margin: 5px 0;
+    font-family: "Marcellus", serif;
+}
+
+.event-description {
+    font-size: 0.95rem;
+    margin-top: 10px;
+    font-family: "Marcellus", serif;
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+.btn-primary:hover {
+    background-color: #774932;
+}
+
+footer .nav-link {
+    color: white
+}
+
+footer .nav-link:hover {
+    color: white
+}
+/*
+.event-top {
+  transform: translateY(-50%);
+}
+
+.event-bottom {
+  transform: translateY(50%);
+}
+*/
+
+/* Fonts */
+.arizonia-regular {
+    font-family: "Arizonia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merienda-medium {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}

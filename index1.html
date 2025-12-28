@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- library stuff -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredericka+the+Great&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- library stuff -->
+  <link rel="stylesheet" href="textillate-anime.css">
+
+  <!-- custom css -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="Overview">
+  <h1 id="Overview-title">Overview</h1>
+  <p id="Overview-words">Coffee is a popular beverage drank around the world. It's primarily known to be used for boosting energy,
+  but there are many alternative usages too. It can be used for socialization, health benefits, and taste! </p>
+  
+  <p> Coffee is the second most popular drink in the world, just behind water. However, 66% of Americans consume coffee
+  daily which is even more than the percentage of bottled water that falls around 64%. Each year,
+  approximately 400 billion cups are consumed. This is ~5.5 billion pounds of coffee beans! </p>
+  
+  <p>Just in America, about 400 million cups of coffee are consumed on the daily, which averages around 3 cups per person.
+  2 out of 3 Americans brew coffee at home every day! Within the past year coffee prices have risen around 20%!</p>
+</div>
+<script>
+
+window.onload = ()=> {
+textillate('#Overview-title', {
+    split: 'chars',
+    in:  { effect: 'flip', delayScale: 1.5, delay: 50, shuffle: false, sync: false },
+    out: { effect: 'rotateOut', delay: 50, reverse: true },
+    loop: true,
+    minDisplayTime: 1200
+  });
+
+  textillate('#Overview-words', {
+    split: 'chars',
+    in:  { effect: 'flip', delayScale: 1.5, delay: 50, shuffle: false, sync: false },
+    out: { effect: 'rotateOut', delay: 50, reverse: true },
+    loop: true,
+    minDisplayTime: 1200
+  });
+
+};
+
+</script>
+
+
+
+<script src="textillate-anime.js"></script>
+</body>
+</html>
